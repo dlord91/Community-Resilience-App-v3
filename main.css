@@ -1,0 +1,352 @@
+body{
+background: #5A86D5;
+border:none;
+}
+
+
+
+
+/*  	TOP NAVIGATION	  */
+
+#topNav{
+	width:100%;
+	background:#4b4a4a;
+	height:50px;
+	border-radius:0 0 5px 5px;
+	position:fixed;
+	top:0;
+	left:0;
+	-webkit-box-shadow: 0px 9px 5px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    0px 9px 5px 0px rgba(50, 50, 50, 0.5);
+	box-shadow:         0px 9px 5px 0px rgba(50, 50, 50, 0.5);
+}
+
+
+#topNav a{
+	text-decoration:none;
+	color:#fff;
+	font-family:arial;
+	float:left;
+	font-size:30px;
+	margin:10px;
+}
+#topNav a:hover{
+	color:red;
+}
+
+#topNav a:last-child{
+	float:right;
+	height:46px;
+	width:46px;
+	margin:2px 5px;
+}
+
+
+/*		MAIN CONTENT		*/
+
+
+
+#wrap{
+	padding:35px 0 0 0;
+}
+
+#wrap h1{
+	text-align:center;
+	font-family: arial;
+	
+}
+
+
+
+
+
+#nav-menu li{
+	list-style: none;
+	padding: 0;	
+}
+
+
+
+#nav-menu li a:hover{
+	background:blue;
+}
+
+#nav-menu li a, .accordionBtn{
+	background: #000000;
+	width: 99%;
+	display: block;
+	margin: 5px auto 0 auto;
+	padding:4px 0;
+	border: 3px solid #D8D8D8;
+	color: white;
+	font-family: tahoma, geneva, sans-serif;
+	font-weight: bold;
+	font-size:20px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: all .2s linear;
+	-o-transition: 		all .2s linear;
+	-moz-transition: 	all .2s linear;
+	-ms-transition: 	all .2s linear;
+	-kthtml-transition: all .2s linear;
+	transition: 		all .2s linear;
+}
+
+
+#nav-menu li:first-child a{
+	background:red;
+	border-radius:10px;
+	padding:7px 0;
+	margin: 5px auto;
+}
+#nav-menu li:first-child a:hover{
+	border-color:#000;
+}		
+
+
+
+
+/*		SOS		*/
+
+#nav-SOS li{ list-style:none; }
+#nav-SOS li a{
+	background:red;
+	border-radius:45px;
+	padding:20px 0;
+	width: 99%;
+	display: block;
+	margin: 5px auto 0 auto;
+	border: 3px solid #fff;
+	color: white;
+	font-family: tahoma, geneva, sans-serif;
+	font-size:30px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: all .2s linear;
+	-o-transition: 		all .2s linear;
+	-moz-transition: 	all .2s linear;
+	-ms-transition: 	all .2s linear;
+	-kthtml-transition: all .2s linear;
+	transition: 		all .2s linear;
+}
+#nav-SOS li a:hover{
+	background:#000;
+	color:red;
+	border-color:red;
+}
+
+.textBox{
+	width:98%;
+	margin: 10px auto;
+}
+.textBox p{
+	text-align:center;
+	font-family:arial;
+	font-size:16px;
+	line-height:20px;
+}
+
+
+
+
+/*	Emergnency Info	Dropdpwn	*/
+
+
+
+
+.accordionBtn h3{ margin:5px auto; font-size:20px; color:#fff; }
+
+
+	
+/***********************************************************************************************************************
+ EXTRA STYLES ADDED FOR MOUSEOVER / ACTIVE EVENTS
+************************************************************************************************************************/
+
+
+/*active*/
+
+
+.on .tumb img{ opacity:0; }
+.on .tumb .tumbHov{ opacity:1; }
+
+.on { background:blue ; }
+	
+	
+.over .tumb img{ opacity:0;
+	-webkit-transition: all .25s linear;
+	-o-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-ms-transition: all .25s linear;
+	-kthtml-transition: all .25s linear;
+	transition: all .25s linear;
+ }
+.over .tumb .tumbHov{ 
+	opacity:1;
+	-webkit-transition: all .25s linear;
+	-o-transition: 		all .25s linear;
+	-moz-transition: 	all .25s linear;
+	-ms-transition: 	all .25s linear;
+	-kthtml-transition: all .25s linear;
+	transition: 		all .25s linear;
+ }
+ 
+
+.over{ 
+	background: blue;
+	-webkit-transition: all .25s linear;
+	-o-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-ms-transition: all .25s linear;
+	-kthtml-transition: all .25s linear;
+	transition: all .25s linear;
+}
+	
+	
+	
+	
+.accordionCon p{ font-family:arial; }
+
+
+
+/*		AREA		*/
+
+
+
+
+.serviceCon{
+	margin:25px auto;
+}
+.service p{
+	font-family:arial;
+	font-size:24px;
+	color: #000;
+	text-transform:capitalize;
+	text-align:center;
+	margin:2px auto;
+}
+.serviceCon a{
+	background: #000000;
+	width: 99%;
+	display: block;
+	margin: 0 auto;
+	padding:4px 0;
+	border: 3px solid #D8D8D8;
+	color: white;
+	font-family: tahoma, geneva, sans-serif;
+	font-weight: bold;
+	font-size:20px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: all .2s linear;
+	-o-transition: 		all .2s linear;
+	-moz-transition: 	all .2s linear;
+	-ms-transition: 	all .2s linear;
+	-kthtml-transition: all .2s linear;
+	transition: 		all .2s linear;
+}
+.serviceCon a:hover{ background:blue; }
+
+
+.serviceAdd p{
+	text-transform:capitalize;
+	text-align:center;
+	margin:2px auto;
+	font-family:arial;
+	font-size:16px;
+	color: #000;
+}
+
+
+#wrap form > label{
+	font-family: arial;
+	width:100%;
+	display:block;
+	font-weight:500;
+	text-align:center;
+	font-size:22px;
+	border-style:solid;
+	border-width:0px 0 1px 0;
+	border-color: #fff;
+	margin:5px auto;
+	padding:5px 0 0 0;
+}
+
+#wrap form input,#wrap form textarea{
+	width:91%;
+	margin:5px auto;
+	display:block;	
+	font-family: arial;
+	font-size:14px;
+	border:none;
+	padding:5px 2%;
+}
+
+#wrap form textarea{
+	height:80px;
+	max-height:120px;
+	max-width:95%;
+}
+#wrap form select{
+	display:block;
+	margin:10px auto;
+	width:50%;
+	font-size:18px;
+}
+
+
+#wrap form .btn{
+	display:block;
+	margin:10px auto;
+	font-size:18px;
+	cursor:pointer;
+	border-radius:20px;
+}
+#wrap form .btn:hover{
+	background:#32eb43;
+}
+
+#wrap > p{ 
+	font-family:arial;
+	font-size:18px;
+	margin:0;
+	color:red;
+	text-align:center;
+}
+
+
+
+
+/*	LOCATION CSS	*/
+
+
+
+#mapForm{
+	min-width:60%;
+	
+}
+#mapForm label, #mapForm a{
+	display:block;
+	font-family:arial;
+}
+#mapForm input{
+	width:91%;
+	margin:5px auto;
+	display:block;	
+	font-family: arial;
+	font-size:14px;
+	border:none;
+	padding:5px 2%;
+	z-index:3
+}
+
+
+
+
+
+
+
+
+
+
+

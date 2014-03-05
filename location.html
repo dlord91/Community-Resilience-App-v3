@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map_canvas { height: 1000px; width:100%; }
+    </style>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+    
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript" src="js/map.js"></script>
+
+  </head>
+  <body>
+  
+  <!--<div id="topNav">
+	<a href="home.html">Back</a>
+	<a href="PersonalDetails.html">
+		<img src="img/account.png" alt="account" width="46" height="46" />
+	</a>
+</div><!--topNav-->
+  
+  <div id="directionWrap">
+					
+					<form action="/routebeschrijving" onSubmit="calcRoute();return false;" id="routeForm">
+							
+								<div id="mapForm">
+								
+									<div id="inputForm">
+									
+									
+										<label>
+											From:
+											<input type="text" id="routeStart" value="Glanmire,Cork, Ireland">
+						          <a href="#" class="autoLink">Use current location: <span>not found</span></a>
+										</label>
+										
+										
+										<label>
+											To:
+											<input type="text" id="routeEnd" value="Cork">
+										</label>
+										
+										
+									</div>
+									
+									
+									<div class="transport">
+										<label>Travel mode:</label>
+										<label><input type="radio" name="travelMode" value="DRIVING" checked /> Driving</label>
+										<label><input type="radio" name="travelMode" value="BICYCLING" /> Bicylcing</label>
+										<label><input type="radio" name="travelMode" value="TRANSIT" /> Public transport</label>
+										<label><input type="radio" name="travelMode" value="WALKING" /> Walking</label>
+									</div>
+								
+								<input type="submit" id="calculateBtn" value="Calculate route">
+								</div>
+							
+							</form>	
+						
+								<div id="directionsPanel">
+										Enter a starting point and click "Calculate route".
+									</div>		
+					
+				</div><!--directionWrap-->
+    
+				<div id="map_canvas">
+									
+								</div>	
+  </body>
+</html>

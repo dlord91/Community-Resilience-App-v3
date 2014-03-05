@@ -5,10 +5,13 @@
 		<link rel="stylesheet" type="text/css" href="main.css"/>
 	
 	<meta name="viewport" content="width=300"/>
+	<script src="js/phonegap-1.2.0.js"></script>
+<script src="js/jquery-1.5.min.js"></script>
 
+	<script src="js/load-json1.js"></script>
 	
 </head>
-<body>
+<body onload="onBodyLoad()">
 
 
 <div id="topNav">
@@ -35,7 +38,7 @@
 
 
 	<div id="nav-SOS">
-				<li><a href="sms://+353879635141?body=I%20NEED%20HELP%20at%20this%20location%20" title="SOS">SOS</a></li>
+					<div id="output"></div>
 	</div><!--nav-SOS-->
 		
 </div><!--wrap-->
